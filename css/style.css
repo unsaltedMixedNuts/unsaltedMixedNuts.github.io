@@ -1,5 +1,5 @@
-/*----------RESETS----------*/
-body, ul, li, a {
+  /*----------RESETS----------*/
+body, p, ul, li, a {
   border: 0;
   margin: 0;
   padding: 0;
@@ -19,12 +19,17 @@ body, ul, li, a {
 /*----------BASICS----------*/
 body {
   /*font-family: "open sans",arial,sans-serif;*/
-  background: black;
-  color: white;
+  background: lightgreen;
+  color: black;
   padding: 20px;
   font-family: 'Quicksand', sans-serif;
   font-size: 32px;
   text-shadow: 0 2px 3px rgba(0,0,0,.2);
+}
+
+p {
+  font-size: 22px;
+  margin-bottom: 25px;
 }
 
 ul {
@@ -93,14 +98,68 @@ header {
 
 /*----------MAIN CONTENT----------*/
 .main-content {
-  min-width: 1019px;
+  min-width: 1021px;
   border-left: 1px solid orange;
   border-right: 1px solid orange;
 }
 
+
+
+
+
+/*----------MAIN CONTENT - SECTION ONE----------*/
 .section-one {
   background: whitesmoke;
-  height: 200px;
+  /*height: 500px;*/
+  padding: 150px 0;
+  text-align: center;
+}
+
+.name-in-section-one {
+  background: cyan;
+  font-size: 72px;
+  font-weight: 300;
+}
+
+.job-title-in-section-one {
+  background: red;
+  font-size: 42px;
+}
+
+.faux-button-in-section-one {
+  background: #66a0fd;
+  margin: 0 auto;
+  padding: 5px 0;
+  width: 20%;
+  border-radius: 2px;
+}
+
+
+
+
+/*----------MAIN CONTENT - SECTION TWO----------*/
+.section-two {
+  background: white;
+  text-align: center;
+}
+
+.header-one {
+  /*background: lightblue;*/
+  display: inline-block;
+  margin: 0 auto 10px auto;
+  font-size: 52px;
+  font-weight: 300;
+  border-bottom: 2px solid orange;
+}
+
+.section-two-paragraphs-div {
+  background: grey;
+  margin: 0 5%;
+  text-align: left;
+}
+
+.center-aligned-paragraph {
+  text-align: center;
 }
 
 
