@@ -1,3 +1,4 @@
+/*----------RESETS----------*/
 body, ul, li {
   border: 0;
   margin: 0;
@@ -11,11 +12,67 @@ body, ul, li {
   background: transparent;
 }
 
+
+
+
+
+/*----------BASICS----------*/
 ul {
   list-style: none;
 }
 
 body {
+  /*font-family: "open sans",arial,sans-serif;*/
   background: black;
   color: white;
+  padding: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 32px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.2);
 }
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+
+
+/*----------HEADER----------*/
+header {
+  background: white;
+  color: black;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+  min-width: 1021px;
+  padding: 20px 0;
+}
+
+.name-in-header {
+  /*background: blue;*/
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 700;
+}
+
+.div-for-links-in-header {
+  /*background: lightgreen;*/
+  float: right;
+}
+
+.ul-for-links-in-header > li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 1px solid orange;
+}
+
+
+
+
+
+/*----------TBD----------*/
