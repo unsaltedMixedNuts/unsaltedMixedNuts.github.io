@@ -1,5 +1,5 @@
   /*----------RESETS----------*/
-body, p, ul, li, a {
+body, p, ul, li, a, img {
   border: 0;
   margin: 0;
   padding: 0;
@@ -50,6 +50,11 @@ a:active {
 
 a:visited {
 
+}
+
+img {
+  display: block;
+  max-width: 120px;
 }
 
 .clearfix:after {
@@ -161,6 +166,34 @@ header {
 .center-aligned-paragraph {
   text-align: center;
 }
+
+
+
+
+/*----------MAIN CONTENT - SECTION THREE----------*/
+.section-three {
+  margin-top: 100px;
+  background: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+.div-for-skill-logos {
+
+}
+
+.ul-for-skill-logos {
+  background: lightblue;
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 678px;
+}
+
+.ul-for-skill-logos > li {
+  float: left;
+  padding: 25px 50px;
+}
+
 
 
 
