@@ -1,4 +1,4 @@
-body {
+body, ul, li {
   border: 0;
   margin: 0;
   padding: 0;
@@ -11,6 +11,11 @@ body {
   background: transparent;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   background: black;
+  color: white;
 }
