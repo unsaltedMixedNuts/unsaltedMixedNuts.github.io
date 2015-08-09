@@ -17,7 +17,7 @@
 
     <div class="div-for-links-in-header">
       <ul class="ul-for-links-in-header">
-        <li><a href="#">Summary</a></li>
+        <li><a class="scroll" href="#summary">Summary</a></li>
         <li><a href="#">Skills</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Resume</a></li>
@@ -33,7 +33,7 @@
       <div class="faux-button-in-section-one">Learn More</div>
     </section>
 
-    <section class="section-two">
+    <section class="section-two" id="summary">
       <div class="header-one">Summary</div>
 
       <div class="section-two-paragraphs-div">
@@ -56,5 +56,24 @@
 
   <footer class="footer">
   </footer>
+
+  <script src="jquery-1.11.3.min.js"></script>
+  <script>
+    $( document ).ready(function() {
+      $(".scroll").click(function(event){
+        event.preventDefault();
+        //calculate destination place
+        var dest=0;
+        debugger
+        if($(this.hash).offset().top > $(document).height()-$(window).height()){
+             dest=$(document).height()-$(window).height();
+        }else{
+             dest=$(this.hash).offset().top;
+        }
+        //go to destination
+        $('html,body').animate({scrollTop:dest}, 1000,'swing');
+      });
+    });
+  </script>
 </body>
 </html>
