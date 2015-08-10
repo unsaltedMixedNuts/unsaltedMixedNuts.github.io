@@ -282,6 +282,7 @@ header {
 
 .header-three a {
   font-size: 22px;
+  text-decoration: underline;
 }
 
 .header-three a:active {
