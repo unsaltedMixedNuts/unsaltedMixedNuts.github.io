@@ -54,7 +54,6 @@ a:visited {
 
 img {
   display: block;
-  max-width: 120px;
 }
 
 .clearfix:after {
@@ -143,11 +142,6 @@ header {
 
 
 /*----------MAIN CONTENT - SECTION TWO----------*/
-.section-two {
-  background: white;
-  text-align: center;
-}
-
 .header-one {
   /*background: lightblue;*/
   display: inline-block;
@@ -155,6 +149,11 @@ header {
   font-size: 52px;
   font-weight: 300;
   border-bottom: 2px solid orange;
+}
+
+.section-two {
+  background: white;
+  text-align: center;
 }
 
 .section-two-paragraphs-div {
@@ -194,6 +193,67 @@ header {
   padding: 25px 50px;
 }
 
+.skill-logo-img {
+  max-width: 120px;
+}
+
+
+
+
+
+/*----------MAIN CONTENT - SECTION FOUR----------*/
+.header-two {
+  display: inline-block;
+  margin: 0 auto 10px auto;
+  font-size: 26px;
+  font-weight: 700;
+  border-bottom: 2px solid #66a0fd;
+}
+
+.section-four {
+  margin-top: 100px;
+  background: pink;
+  text-align: center;
+  font-size: 22px;
+}
+
+.project-picture-left > img {
+  max-width: 100%;
+}
+
+.project-one {
+
+}
+
+.project-picture-left {
+  background: red;
+  /*background-image: url(https://github.com/unsaltedMixedNuts/amazon-clone-zone/raw/master/public/screenshot.png);*/
+  float: left;
+  min-width: 510.5px;
+  max-width: 50%;
+}
+
+.project-picture-right {
+  float: right;
+}
+
+.project-description-left {
+  float: left;
+}
+
+.project-description-right {
+  /*background: #66a0fd;*/
+  background: purple;
+  margin-top: 11%;
+  float: right;
+  min-width: 510.5px;
+  max-width: 50%;
+}
+
+.left-aligned-paragraph {
+  text-align: left;
+  margin: 0 30px;
+}
 
 
 
