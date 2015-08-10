@@ -182,6 +182,7 @@ header {
 .faux-button-in-section-one:active {
   box-shadow: 0 0 10px 0 orange;
   top: 2px;
+  color: orange;
 }
 
 .faux {
@@ -350,7 +351,7 @@ header {
 
 .project-description-left {
   /*background: purple;*/
-  margin-top: 11%;
+  margin-top: 5%;
   float: left;
   min-width: 510.5px;
   max-width: 50%;
@@ -359,7 +360,7 @@ header {
 .project-description-right {
   /*background: #66a0fd;*/
   /*background: purple;*/
-  margin-top: 11%;
+  margin-top: 5%;
   float: right;
   min-width: 510.5px;
   max-width: 50%;
