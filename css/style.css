@@ -21,7 +21,7 @@ body {
   /*font-family: "open sans",arial,sans-serif;*/
   /*background: lightgreen;*/
   /*padding: 20px;*/
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
   color: black;
   font-family: 'Quicksand', sans-serif;
   font-size: 32px;
@@ -125,22 +125,38 @@ header {
 /*----------MAIN CONTENT - SECTION ONE - NAME / JOB TITLE----------*/
 .section-one {
   background: whitesmoke;
+  background-image: url("../assets/nyc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   /*height: 500px;*/
   /*padding: 150px 0;*/
-  padding-top: 232px;
-  padding-bottom: 150px;
+  padding-top: 132px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
 .name-in-section-one {
-  background: cyan;
+  /*background: cyan;*/
+  background: orange;
+  color: white;
   font-size: 72px;
   font-weight: 300;
 }
 
 .job-title-in-section-one {
-  background: red;
+  /*background: red;*/
+  background: orange;
+  color: white;
   font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.headshot-image {
+  display: block;
+  height: 300px;
+  width: auto;
+  border-radius: 50%;
+  margin: 10px auto;
 }
 
 .faux-button-in-section-one {
@@ -178,11 +194,11 @@ header {
   margin: 0 auto;
 }
 
-.test-one {
+.float-left {
   float: left;
 }
 
-.test-two {
+.float-right {
   float: right;
 }
 
@@ -415,4 +431,12 @@ header {
 
 
 
-/*----------TBD----------*/
+/*----------OTHER----------*/
+.picture-below-footer {
+  background: whitesmoke;
+  margin-top: 100px;
+  height: 300px;
+  background-image: url("../assets/nyc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
