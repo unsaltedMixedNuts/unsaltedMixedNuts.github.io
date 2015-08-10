@@ -26,6 +26,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 32px;
   text-shadow: 0 2px 3px rgba(0,0,0,.2);
+  min-width: 1021px;
 }
 
 p {
@@ -114,8 +115,8 @@ header {
 /*----------MAIN CONTENT----------*/
 .main-content {
   min-width: 1021px;
-  border-left: 1px solid orange;
-  border-right: 1px solid orange;
+  /*border-left: 1px solid orange;
+  border-right: 1px solid orange;*/
 }
 
 
@@ -275,11 +276,47 @@ header {
   border-bottom: 2px solid #66a0fd;
 }
 
+.header-three {
+  margin: 10px 0;
+}
+
+.header-three a {
+  font-size: 22px;
+}
+
+.header-three a:active {
+  font-size: 20px;
+}
+
 .section-four {
   /*background: pink;*/
   margin-top: 100px;
   text-align: center;
   font-size: 22px;
+}
+
+.project-one {
+  /*background: lightyellow;*/
+}
+
+.project-two {
+  /*background: lightgreen;*/
+  margin: 30px 0 0 0;
+  /*border-top: 2px solid #66a0fd;*/
+  /*border-bottom: 2px solid #66a0fd;*/
+}
+
+.project-three {
+  /*background: peachpuff;*/
+}
+
+.div-for-project-border {
+  /*height: 10px;*/
+  /*border-top: 2px solid #66a0fd;*/
+  border-bottom: 2px solid #66a0fd;
+  /*background: red;*/
+  width: 70%;
+  margin: 30px auto;
 }
 
 .project-picture-left > img {
@@ -290,27 +327,24 @@ header {
   max-width: 100%;
 }
 
-.project-one {
-
-}
-
 .project-picture-left {
-  background: red;
-  /*background-image: url(https://github.com/unsaltedMixedNuts/amazon-clone-zone/raw/master/public/screenshot.png);*/
   float: left;
-  min-width: 510.5px;
-  max-width: 50%;
+  /*min-width: 510.5px;*/
+  max-width: 40%;
+  margin: 30px 30px 30px 30px;
   border-radius: 15px;
   overflow: hidden;
+  border: 3px solid orange;
 }
 
 .project-picture-right {
-  background: red;
   float: right;
-  min-width: 510.5px;
-  max-width: 50%;
+  /*min-width: 510.5px;*/
+  max-width: 40%;
+  margin: 30px 30px 30px 30px;
   border-radius: 15px;
   overflow: hidden;
+  border: 3px solid orange;
 }
 
 .project-description-left {
@@ -358,8 +392,8 @@ header {
   text-align: center;
   font-size: 22px;
   min-width: 1021px;
-  border-left: 1px solid orange;
-  border-right: 1px solid orange;
+  /*border-left: 1px solid orange;
+  border-right: 1px solid orange;*/
 }
 
 .contact-link-div {
@@ -439,4 +473,5 @@ header {
   background-image: url("../assets/nyc.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
