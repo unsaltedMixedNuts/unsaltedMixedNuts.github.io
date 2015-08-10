@@ -18,10 +18,6 @@ body, p, ul, li, a, img {
 
 /*----------BASICS----------*/
 body {
-  /*font-family: "open sans",arial,sans-serif;*/
-  /*background: lightgreen;*/
-  /*padding: 20px;*/
-  /*padding-bottom: 100px;*/
   color: black;
   font-family: 'Quicksand', sans-serif;
   font-size: 32px;
@@ -39,8 +35,6 @@ ul {
 }
 
 a {
-  /*display: inline-block;*/
-  /*position: relative;*/
   cursor: pointer;
 }
 
@@ -49,7 +43,6 @@ a:hover {
 }
 
 a:active {
-  /*top: 3px;*/
   font-size: 31.5px;
   text-shadow: none;
   color: #CC8400;
@@ -77,8 +70,6 @@ img {
 header {
   background: white;
   color: black;
-  /*border-left: 1px solid orange;
-  border-right: 1px solid orange;*/
   min-width: 1021px;
   padding: 20px 0;
 
@@ -89,7 +80,6 @@ header {
 }
 
 .name-in-header {
-  /*background: blue;*/
   float: left;
   padding-left: 15px;
   padding-right: 15px;
@@ -97,7 +87,6 @@ header {
 }
 
 .div-for-links-in-header {
-  /*background: lightgreen;*/
   float: right;
 }
 
@@ -115,8 +104,6 @@ header {
 /*----------MAIN CONTENT----------*/
 .main-content {
   min-width: 1021px;
-  /*border-left: 1px solid orange;
-  border-right: 1px solid orange;*/
 }
 
 
@@ -126,18 +113,15 @@ header {
 /*----------MAIN CONTENT - SECTION ONE - NAME / JOB TITLE----------*/
 .section-one {
   background: whitesmoke;
-  background-image: url("../assets/nyc.jpg");
+  background-image: url("../assets/images/nyc.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /*height: 500px;*/
-  /*padding: 150px 0;*/
   padding-top: 132px;
   padding-bottom: 50px;
   text-align: center;
 }
 
 .name-in-section-one {
-  /*background: cyan;*/
   background: orange;
   color: white;
   font-size: 72px;
@@ -145,7 +129,6 @@ header {
 }
 
 .job-title-in-section-one {
-  /*background: red;*/
   background: orange;
   color: white;
   font-size: 42px;
@@ -164,14 +147,10 @@ header {
   position: relative;
   background: #66a0fd;
   color: white;
-  /*margin: 0 auto;*/
   margin: 0 25px;
-  /*padding: 5px 0;*/
-  /*width: 15%;*/
   width: 40%;
   border-radius: 2px;
   font-size: 18px;
-  /*font-weight: 300;*/
 }
 
 .faux-solo {
@@ -191,7 +170,6 @@ header {
 }
 
 .div-for-faux-buttons {
-  /*background: green;*/
   width: 500px;
   margin: 0 auto;
 }
@@ -209,7 +187,6 @@ header {
 
 /*----------MAIN CONTENT - SECTION TWO - SUMMARY----------*/
 .header-one {
-  /*background: lightblue;*/
   display: inline-block;
   margin: 0 auto 10px auto;
   font-size: 52px;
@@ -223,7 +200,6 @@ header {
 }
 
 .section-two-paragraphs-div {
-  /*background: grey;*/
   margin: 0 5%;
   text-align: left;
 }
@@ -249,7 +225,6 @@ header {
 }
 
 .ul-for-skill-logos {
-  /*background: lightblue;*/
   display: inline-block;
   margin: 0 auto;
   max-width: 678px;
@@ -291,32 +266,24 @@ header {
 }
 
 .section-four {
-  /*background: pink;*/
   margin-top: 100px;
   text-align: center;
   font-size: 22px;
 }
 
 .project-one {
-  /*background: lightyellow;*/
+
 }
 
 .project-two {
-  /*background: lightgreen;*/
   margin: 30px 0 0 0;
-  /*border-top: 2px solid #66a0fd;*/
-  /*border-bottom: 2px solid #66a0fd;*/
 }
 
 .project-three {
-  /*background: peachpuff;*/
 }
 
 .div-for-project-border {
-  /*height: 10px;*/
-  /*border-top: 2px solid #66a0fd;*/
   border-bottom: 2px solid #66a0fd;
-  /*background: red;*/
   width: 70%;
   margin: 30px auto;
 }
@@ -331,7 +298,6 @@ header {
 
 .project-picture-left {
   float: left;
-  /*min-width: 510.5px;*/
   max-width: 40%;
   margin: 30px 30px 30px 30px;
   border-radius: 15px;
@@ -341,7 +307,6 @@ header {
 
 .project-picture-right {
   float: right;
-  /*min-width: 510.5px;*/
   max-width: 40%;
   margin: 30px 30px 30px 30px;
   border-radius: 15px;
@@ -350,7 +315,6 @@ header {
 }
 
 .project-description-left {
-  /*background: purple;*/
   margin-top: 5%;
   float: left;
   min-width: 510.5px;
@@ -358,8 +322,6 @@ header {
 }
 
 .project-description-right {
-  /*background: #66a0fd;*/
-  /*background: purple;*/
   margin-top: 5%;
   float: right;
   min-width: 510.5px;
@@ -377,7 +339,6 @@ header {
 
 /*----------MAIN CONTENT - SECTION FIVE - RESUME----------*/
 .section-five {
-  /*background: cyan;*/
   margin-top: 100px;
   text-align: center;
   font-size: 22px;
@@ -394,8 +355,6 @@ header {
   text-align: center;
   font-size: 22px;
   min-width: 1021px;
-  /*border-left: 1px solid orange;
-  border-right: 1px solid orange;*/
 }
 
 .contact-link-div {
@@ -416,7 +375,6 @@ header {
 }
 
 .contact-logo-two {
-  /*margin: 16px auto 0 auto;*/
   margin: 8px auto 0 auto;
 }
 
@@ -472,7 +430,7 @@ header {
   background: whitesmoke;
   margin-top: 100px;
   height: 300px;
-  background-image: url("../assets/nyc.jpg");
+  background-image: url("../assets/images/nyc.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
