@@ -30,7 +30,9 @@
     <section class="section-one">
       <div class="name-in-section-one">Mel Muhammad</div>
       <div class="job-title-in-section-one">Web Developer</div>
-      <a class="scroll" href="#summary"><div class="faux-button-in-section-one">Learn More</div></a>
+      <a class="scroll" href="#summary"><div class="faux-button-in-section-one">Learn More &#x2193</div></a>
+      <br>
+      <div class="faux-button-in-section-one">Back To Top &#x2191</div>
     </section>
 
     <section class="section-two" id="summary">
@@ -118,7 +120,7 @@
 
       <div class="project-two clearfix">
         <div class="project-picture-right">
-          <img src="https://github.com/unsaltedMixedNuts/amazon-clone-zone/raw/master/public/screenshot.png">
+          <img src="/Users/mel/Desktop/snake_screenshot.png">
         </div>
 
         <div class="project-description-left">
@@ -131,7 +133,7 @@
 
       <div class="project-three clearfix">
         <div class="project-picture-left">
-          <img src="https://github.com/unsaltedMixedNuts/amazon-clone-zone/raw/master/public/screenshot.png">
+          <img src="https://github.com/unsaltedMixedNuts/chess/raw/master/assets/screenshot.png">
         </div>
 
         <div class="project-description-right">
@@ -184,7 +186,6 @@
         event.preventDefault();
         //calculate destination place
         var dest=0;
-        debugger
         if($(this.hash).offset().top > $(document).height()-$(window).height()){
              dest=$(document).height()-$(window).height();
         }else{
