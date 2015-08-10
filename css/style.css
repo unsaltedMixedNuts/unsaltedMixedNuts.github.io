@@ -111,7 +111,7 @@ header {
 
 
 
-/*----------MAIN CONTENT - SECTION ONE----------*/
+/*----------MAIN CONTENT - SECTION ONE - NAME / JOB TITLE----------*/
 .section-one {
   background: whitesmoke;
   /*height: 500px;*/
@@ -141,7 +141,7 @@ header {
 
 
 
-/*----------MAIN CONTENT - SECTION TWO----------*/
+/*----------MAIN CONTENT - SECTION TWO - SUMMARY----------*/
 .header-one {
   /*background: lightblue;*/
   display: inline-block;
@@ -169,7 +169,7 @@ header {
 
 
 
-/*----------MAIN CONTENT - SECTION THREE----------*/
+/*----------MAIN CONTENT - SECTION THREE - SKILLS----------*/
 .section-three {
   margin-top: 100px;
   background: white;
@@ -201,7 +201,7 @@ header {
 
 
 
-/*----------MAIN CONTENT - SECTION FOUR----------*/
+/*----------MAIN CONTENT - SECTION FOUR - PROJECTS----------*/
 .header-two {
   display: inline-block;
   margin: 0 auto 10px auto;
@@ -221,6 +221,10 @@ header {
   max-width: 100%;
 }
 
+.project-picture-right > img {
+  max-width: 100%;
+}
+
 .project-one {
 
 }
@@ -231,14 +235,25 @@ header {
   float: left;
   min-width: 510.5px;
   max-width: 50%;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .project-picture-right {
+  background: red;
   float: right;
+  min-width: 510.5px;
+  max-width: 50%;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .project-description-left {
+  background: purple;
+  margin-top: 11%;
   float: left;
+  min-width: 510.5px;
+  max-width: 50%;
 }
 
 .project-description-right {
@@ -259,8 +274,50 @@ header {
 
 
 
-/*----------FOOTER----------*/
+/*----------MAIN CONTENT - SECTION FIVE - RESUME----------*/
+.section-five {
+  background: cyan;
+  text-align: center;
+  font-size: 22px;
+}
 
+
+
+
+
+/*----------FOOTER - CONTACT----------*/
+.footer {
+  background: white;
+  text-align: center;
+  font-size: 22px;
+  min-width: 1021px;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+}
+
+.contact-link-div {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 124px;
+  height: 124px;
+}
+
+.contact-logo-img {
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.contact-logo-one {
+  margin: 2px auto 0 auto;
+}
+
+.contact-logo-two {
+  margin: 16px auto 0 auto;
+}
+
+.contact-logo-three {
+  margin: 20px auto 0 auto;
+}
 
 
 

@@ -30,7 +30,7 @@
     <section class="section-one">
       <div class="name-in-section-one">Mel Muhammad</div>
       <div class="job-title-in-section-one">Web Developer</div>
-      <div class="faux-button-in-section-one">Learn More</div>
+      <a class="scroll" href="#summary"><div class="faux-button-in-section-one">Learn More</div></a>
     </section>
 
     <section class="section-two" id="summary">
@@ -116,16 +116,65 @@
         </div>
       </div>
 
-      <div class="project-two">
+      <div class="project-two clearfix">
+        <div class="project-picture-right">
+          <img src="https://github.com/unsaltedMixedNuts/amazon-clone-zone/raw/master/public/screenshot.png">
+        </div>
+
+        <div class="project-description-left">
+          <div class="header-two">JS Snake</div>
+          <p class="left-aligned-paragraph">
+            JS Snake is a browser-based version of the classic Snake game written with JavaScript, JQuery and Underscore.js. It uses timed JavaScript method calls and CSS classes to simulate animations on the browser window's View.
+          </p>
+        </div>
       </div>
 
-      <div class="project-three">
-         <embed src="/Users/mel/Desktop/Miscellaneous/app_academy_desktop/resume/pdf_versions/Resume_v2015-07-27.pdf" width="550" height="709.5"></embed>
+      <div class="project-three clearfix">
+        <div class="project-picture-left">
+          <img src="https://github.com/unsaltedMixedNuts/amazon-clone-zone/raw/master/public/screenshot.png">
+        </div>
+
+        <div class="project-description-right">
+          <div class="header-two">CLI Chess</div>
+          <p class="left-aligned-paragraph">
+            CLI Chess is an object-oriented command line version of the game of chess. This program features granularity and inheritance between various board pieces to ensure that the underlying code is DRY.
+          </p>
+        </div>
       </div>
+    </section>
+
+    <section class="section-five" id="resume">
+      <div class="header-one">Resume</div>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" id="contact">
+    <div class="header-one">Contact</div>
+
+    <div class="div-for-skill-logos clearfix">
+      <ul class="ul-for-skill-logos">
+        <li>
+          <div class="contact-link-div">
+            <img class="contact-logo-img contact-logo-one" src="/Users/mel/Desktop/In-2CRev-128px-TM.png">
+          </div>
+            <strong>LinkedIn</strong>
+        </li>
+        <li>
+          <div class="contact-link-div">
+            <img class="contact-logo-img contact-logo-two" src="http://www.joshuatweiss.com/images/Octocat.png">
+          </div>
+            <strong>GitHub</strong>
+        </li>
+        <li>
+          <div class="contact-link-div">
+            <img class="contact-logo-img contact-logo-three" src="http://www.joshuatweiss.com/images/email_logo.svg">
+          </div>
+            <strong>Email</strong>
+        </li>
+      </ul>
+    </div>
+
+
   </footer>
 
   <script src="jquery-1.11.3.min.js"></script>
