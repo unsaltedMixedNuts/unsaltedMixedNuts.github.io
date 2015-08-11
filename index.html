@@ -6,7 +6,6 @@
   <title>Mel Muhammad | Web Developer</title>
   <link rel="stylesheet" href="css/main.css" type="text/css">
   <link rel="stylesheet" media="screen and (max-width: 1021px)" href="css/subordinate.css">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=0.25"> -->
   <link rel="icon"
         type="image/png"
         href="assets/images/favicon-32x32.png">
@@ -127,7 +126,7 @@
 
       <div class="project-one clearfix">
         <div class="project-picture-left">
-          <img src="assets/images/screenshot.png">
+          <a href="http://www.amazonclonezone.com" target="_blank"><img src="assets/images/screenshot.png"></a>
         </div>
 
         <div class="project-description-right">
@@ -149,7 +148,7 @@
       <div class="div-for-project-border"></div>
       <div class="project-two clearfix" id="project-two">
         <div class="project-picture-right">
-          <img src="assets/images/snake_screenshot.png">
+          <a href="http://www.melmuhammad.com/snake" target="_blank"><img src="assets/images/snake_screenshot.png"></a>
         </div>
 
         <div class="project-description-left">
@@ -169,7 +168,7 @@
       <div class="div-for-project-border"></div>
       <div class="project-three clearfix" id="project-three">
         <div class="project-picture-left">
-          <img src="assets/images/chess_screenshot.png">
+          <a href="https://github.com/unsaltedMixedNuts/chess" target="_blank"><img src="assets/images/chess_screenshot.png"></a>
         </div>
 
         <div class="project-description-right">
@@ -192,7 +191,7 @@
       <div class="div-for-project-border"></div>
       <div class="project-two clearfix" id="project-four">
         <div class="project-picture-right">
-          <img src="assets/images/portfolio_screenshot.png">
+          <a class="scroll_to_top" href="#top"><img src="assets/images/portfolio_screenshot.png"></a>
         </div>
 
         <div class="project-description-left">
@@ -260,25 +259,22 @@
   </div>
 
   <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="view.js"></script>
   <script>
     $( document ).ready(function() {
       $(".scroll").click(function(event){
         event.preventDefault();
-        //calculate destination place
         var viewWidth = parseInt($(window).width());
-        // debugger
+
         if (viewWidth < 1021) {
-          var dest=0;
+          var dest = 0;
         } else {
-          var dest=-80;
+          var dest = -80;
         }
-        // var dest=0;
+
         if($(this.hash).offset().top > $(document).height()-$(window).height()){
-          debugger
-             dest=$(document).height()-$(window).height();
+             dest = $(document).height()-$(window).height();
         }else{
-             dest+=$(this.hash).offset().top;
+             dest += $(this.hash).offset().top;
         }
         //go to destination
         $('html,body').animate({scrollTop:dest}, 1000,'swing');

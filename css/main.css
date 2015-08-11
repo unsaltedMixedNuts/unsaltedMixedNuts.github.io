@@ -288,12 +288,32 @@ header {
   margin: 30px auto;
 }
 
-.project-picture-left > img {
+.project-picture-left img {
   max-width: 100%;
 }
 
-.project-picture-right > img {
+.project-picture-right img {
   max-width: 100%;
+}
+
+.project-picture-left:hover {
+  border: 3px solid #66a0fd;
+  opacity: 0.7;
+}
+
+.project-picture-right:hover {
+  border: 3px solid #66a0fd;
+  opacity: 0.7;
+}
+
+.project-picture-left:active {
+  position: relative;
+  top: 5px;
+}
+
+.project-picture-right:active {
+  position: relative;
+  top: 5px;
 }
 
 .project-picture-left {
