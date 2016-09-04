@@ -276,10 +276,16 @@ header {
 }
 
 .project-two {
-  margin: 30px 0 0 0;
 }
 
 .project-three {
+  margin: 30px 0 0 0;
+}
+
+.project-four {
+}
+
+.project-five {
 }
 
 .div-for-project-border {
@@ -334,6 +340,13 @@ header {
   border: 3px solid orange;
 }
 
+.project-description-left-ttw {
+  margin-top: 2%;
+  float: left;
+  min-width: 510.5px;
+  max-width: 50%;
+}
+
 .project-description-left {
   margin-top: 5%;
   float: left;
@@ -350,7 +363,16 @@ header {
 
 .left-aligned-paragraph {
   text-align: left;
-  margin: 0 30px;
+  margin: 10px 30px;
+}
+
+.left-aligned-paragraph a {
+  border-bottom: 2px solid #66a0fd;
+}
+
+.left-aligned-paragraph a:active {
+  font-size: 22px;
+  text-shadow: 0 0 2px black;
 }
 
 
