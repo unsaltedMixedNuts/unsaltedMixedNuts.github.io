@@ -208,6 +208,19 @@ header {
   text-align: center;
 }
 
+.last-paragraph a {
+  border-bottom: 2px solid #66a0fd;
+}
+
+.last-paragraph a:hover {
+  border-bottom: none;
+}
+
+.last-paragraph a:active {
+  font-size: inherit;
+  text-shadow: 0 0 2px black;
+}
+
 
 
 
@@ -451,18 +464,6 @@ header {
   font-size: inherit;
 }
 
-.center-aligned-paragraph a {
-  border-bottom: 2px solid #66a0fd;
-}
-
-.center-aligned-paragraph a:hover {
-  border-bottom: none;
-}
-
-.center-aligned-paragraph a:active {
-  font-size: inherit;
-  text-shadow: 0 0 2px black;
-}
 
 
 
